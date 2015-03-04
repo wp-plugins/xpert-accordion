@@ -15,7 +15,9 @@ Drag and Drop accordion shortcode Builder
 [youtube http://www.youtube.com/watch?v=OSVtKlOD7c8]
 
 [Xpert Accordion](https://www.themexpert.com/wordpress-plugins/xpert-accordion-wp) for is highly customizable shortcode accordion plugin for WordPress.  A user can generate unlimited accordion set anywhere in posts and pages with artistic UI.  Xpert Accordion plugin comes with bundle of opportunity such easy style switching, shorting and many more awesome features. The plugin is build with ThemeXpert's own css prefixes to avoid CSS conflict with plugins.
- 
+
+**[Live Demo](http://demo.themexpert.com/wpplugins/xpert-accordion)**
+
  **Feature**
 
 * Xpert Accordion is responsive and friendly to any mobile devices
