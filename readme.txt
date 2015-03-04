@@ -45,13 +45,13 @@ Drag and Drop accordion shortcode Builder
 
 **Example Shortcode**
 
-``` 
+` 
 [xa_acc style="xa-default" ]
 [xa_slide title="Accordion Title 01" icon="Select Icon---"]Content[/xa_slide]
 [xa_slide title="Accordion Title 02" icon="Select Icon---"]Content[/xa_slide]
 [xa_slide title="Accordion Title 03" icon="Select Icon---"]Content[/xa_slide]
 [/xa_acc]
-```
+`
 Though don't need to understand shortcode by yourself, Xpert Accordion will generate for you. If you want update your accordion set manually. it takes three parameters to change accordion title, style and title icons. 
 
 **Styles parameters:**
@@ -67,10 +67,10 @@ If you don't select any style for your accordion set. It will give you xa-defaul
 **Icon Parameters**
 You don't need to touch shortcode parameter for title icons if you select them correctly while creating items. If you want update them. Just add the icon name. Xpert accordion supports **FontAwesome** icons. FontAwesome come with `fa fa` prefix with each individual icon. Xpert accordion will add the prefix automatically for you. you need only pass the icon name. Have a look on the examples.
 
-```
+`
 icon="facebook"
 icon="twitter"
-```
+`
  == Installation ==
 
 Installing the plugins is just like installing other WordPress plugins. Have on the installation processes. 
