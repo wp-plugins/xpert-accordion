@@ -15,9 +15,7 @@ Drag and Drop accordion shortcode Builder
 [youtube http://www.youtube.com/watch?v=OSVtKlOD7c8]
 
 [Xpert Accordion](https://www.themexpert.com/wordpress-plugins/xpert-accordion-wp) for is highly customizable shortcode accordion plugin for WordPress.  A user can generate unlimited accordion set anywhere in posts and pages with artistic UI.  Xpert Accordion plugin comes with bundle of opportunity such easy style switching, shorting and many more awesome features. The plugin is build with ThemeXpert's own css prefixes to avoid CSS conflict with plugins.
-
-**[Live Demo](http://demo.themexpert.com/wpplugins/xpert-accordion)**
-
+ 
  **Feature**
 
 * Xpert Accordion is responsive and friendly to any mobile devices
@@ -73,7 +71,7 @@ You don't need to touch shortcode parameter for title icons if you select them c
 icon="facebook"
 icon="twitter"
 `
- == Installation ==
+== Installation ==
 
 Installing the plugins is just like installing other WordPress plugins. Have on the installation processes. 
 
@@ -98,10 +96,13 @@ Yes, You can create as many as accordion set if you want.
 **How can I change my accordion style ? **
 It pretty simple, Just go to **select style** drop down option and select the available styles.
 
- == Changelog ==
-1.0
-
+== Changelog ==
+= 1.0 =
 * initial Release
+= 1.1 =
+* Nested shortcode support
+* Bootstrap up to date
+* Icon list update
 
 == Screenshots ==
 

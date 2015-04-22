@@ -32,7 +32,7 @@ function accordion_shortcode_nested($attr, $content= null){
 
 		);
 	$data = shortcode_atts($default, $attr);
-    
+  $content = do_shortcode($content);
 	$class = ( $count === $newFlag ) ? ' in' : '';
     
     $count++;

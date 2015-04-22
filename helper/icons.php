@@ -1,5 +1,5 @@
 <?php
-$icons = array(
+return array(
 		'fontawesome' => array(
 					  'Select Icon---' => '',
 			          'adjust' => 'adjust',
