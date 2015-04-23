@@ -4,7 +4,7 @@ Donate link: http://www.themexpert.com
 Tags: Accordion, accordions, accordions plugin, accordions plugin jquery, accordions plugin wordpress, accordions short-code, jQuery accordions, Responsive accordions, shortcodes, draggable accordion plugin, accordion builder, bootstrap, fontAwesome, gulp, less
 Requires at least: 3.6 
 Tested up to: 3.6 or higher
-Stable tag: 4.1.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,9 @@ Drag and Drop accordion shortcode Builder
 [youtube http://www.youtube.com/watch?v=OSVtKlOD7c8]
 
 [Xpert Accordion](https://www.themexpert.com/wordpress-plugins/xpert-accordion-wp) for is highly customizable shortcode accordion plugin for WordPress.  A user can generate unlimited accordion set anywhere in posts and pages with artistic UI.  Xpert Accordion plugin comes with bundle of opportunity such easy style switching, shorting and many more awesome features. The plugin is build with ThemeXpert's own css prefixes to avoid CSS conflict with plugins.
- 
+
+[Live Demo](http://demo.themexpert.com/wpplugins/xpert-accordion/)
+
  **Feature**
 
 * Xpert Accordion is responsive and friendly to any mobile devices
@@ -45,7 +47,7 @@ Drag and Drop accordion shortcode Builder
 
 **Example Shortcode**
 
-` 
+`
 [xa_acc style="xa-default" ]
 [xa_slide title="Accordion Title 01" icon="Select Icon---"]Content[/xa_slide]
 [xa_slide title="Accordion Title 02" icon="Select Icon---"]Content[/xa_slide]
@@ -71,7 +73,7 @@ You don't need to touch shortcode parameter for title icons if you select them c
 icon="facebook"
 icon="twitter"
 `
-== Installation ==
+ == Installation ==
 
 Installing the plugins is just like installing other WordPress plugins. Have on the installation processes. 
 
@@ -100,8 +102,8 @@ It pretty simple, Just go to **select style** drop down option and select the av
 = 1.0 =
 * initial Release
 = 1.1 =
-* Nested shortcode support
-* Bootstrap up to date
+* Nested shortcode 
+* Bootstrap update
 * Icon list update
 
 == Screenshots ==
@@ -115,4 +117,3 @@ It pretty simple, Just go to **select style** drop down option and select the av
 == Upgrade Notice ==
 
 New Release
-
