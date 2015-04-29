@@ -108,7 +108,8 @@ abstract class Html {
 	{
 		$html = array();
 
-		$icons = include __DIR__ . '/icons.php';
+		$icons = include dirname(__FILE__) . '/icons.php';
+
 
 		$html[] = '<select class="icons" style="font-family: \'FontAwesome\'">';
 			foreach ($icons['fontawesome'] as $icon => $content )
