@@ -1,0 +1,23 @@
+// -----------------------------
+// Import from Bootstrap
+// -----------------------------
+
+// Core variables and mixins
+@import "../vendor/bootstrap/less/variables.less";
+@import "../vendor/bootstrap/less/mixins.less";
+
+// Components
+@import "../vendor/bootstrap/less/component-animations.less";
+@import "../vendor/bootstrap/less/panels.less";
+
+// Utility classes
+@import "../vendor/bootstrap/less/utilities.less";
+
+//Preset Styles
+@import "presets/preset.less";
+
+// Nasty hack to save our style :)
+.panel-heading .panel-title{ 
+  margin: 0; 
+  > a{ border-bottom: 0;}
+}
