@@ -1,0 +1,267 @@
+// Variables
+// ========================================================================
+@form-height:                                   30px;
+@form-padding:                                  4px 6px;
+@form-border:                                   #ddd;
+@form-border-width:                             1px;
+@form-background:                               #fff;
+@form-color:                                    #444;
+
+@form-focus-border:                             #99baca;
+@form-focus-background:                         #f5fbfe;
+@form-focus-color:                              #444;
+
+@button-primary-background:                     #00a8e6;
+@button-primary-color:                          #fff;
+@button-primary-hover-background:               #35b3ee;
+@button-primary-hover-color:                    #fff;
+@button-primary-active-background:              #0091ca;
+@button-primary-active-color:                   #fff;
+
+@button-success-background:                     #8cc14c;
+@button-success-color:                          #fff;
+@button-success-hover-background:               #8ec73b;
+@button-success-hover-color:                    #fff;
+@button-success-active-background:              #72ae41;
+@button-success-active-color:                   #fff;
+
+@button-danger-background:                      #da314b;
+@button-danger-color:                           #fff;
+@button-danger-hover-background:                #e4354f;
+@button-danger-hover-color:                     #fff;
+@button-danger-active-background:               #c91032;
+@button-danger-active-color:                    #fff;
+
+// -----------------------------
+// Import from Bootstrap
+// -----------------------------
+	
+// Core variables and mixins
+@import "../vendor/bootstrap/less/variables.less";
+@import "../vendor/bootstrap/less/mixins.less";
+
+// Components
+@import "../vendor/bootstrap/less/component-animations.less";
+@import "../vendor/bootstrap/less/panels.less";
+@import "../vendor/bootstrap/less/close.less";
+
+// Components w/ JavaScript
+@import "../vendor/bootstrap/less/modals.less";
+
+// Utility classes
+@import "../vendor/bootstrap/less/utilities.less";
+
+// Selectize
+@import "../vendor/selectize/less/selectize.default.less";
+.selectize-input{ 
+    padding: 0 8px; 
+    position: relative !important;
+}
+
+// -----------------------------------------------
+//  App specific css
+// -----------------------------------------------
+.clonable{ display: none; }
+
+[class*='width-'],
+[class^='width-']{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 10px;
+}
+.width-70{ width: 70%; padding-right: 20px; }
+.width-30{ width: 30%;}
+.width-100{ width: 100%; clear: both; }
+// Title
+#title-icon{ color : @button-primary-background ; }
+.tx-form{
+  label{ display: block; margin-bottom: 5px; }
+
+  input,
+  select,
+  textarea {
+    /* 1 */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* 2 */
+    margin: 0;
+    /* 3 */
+    border-radius: 0;
+    /* 4 */
+    font: inherit;
+    color: inherit;
+  }
+  select { text-transform: none; }
+
+  select,
+  textarea,
+  input:not([type]),
+  input[type="text"],
+  input[type="url"],
+  input[type="search"]{
+    /* 1 */
+    height: @form-height;
+    /* 2 */
+    width: 100%;
+    /* 3 */
+    padding: @form-padding;
+    /* 4 */
+    border: @form-border-width solid @form-border;
+    background: @form-background;
+    color: @form-color;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+
+    // Focus state
+    &:focus {
+      border-color: @form-focus-border;
+      outline: 0;
+      background: @form-focus-background;
+      color: @form-focus-color;
+    }
+  }
+  textarea{ height: 100px;}
+}
+// Buttons
+//----------------------
+.tx-btn {
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #333;
+  border: 1px solid #ddd;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background: #fff;
+  vertical-align: middle;
+  cursor: pointer;
+  /* 8 */
+  line-height: normal;
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+
+  &:hover{ background: #eee; }
+}
+/*
+ * Action: `tx-btn-success`
+ */
+
+.tx-btn-success {
+  background-color: @button-success-background;
+  color: @button-success-color;
+}
+
+/* Hover */
+.tx-btn-success:hover,
+.tx-btn-success:focus {
+  background-color: @button-success-hover-background;
+  color: @button-success-hover-color;
+}
+
+/* Active */
+.tx-btn-success:active,
+.tx-btn-success.uk-active {
+  background-color: @button-success-active-background;
+  color: @button-success-active-color;
+}
+
+/*
+ * Action: `action-insert`
+ */
+
+.tx-btn-primary {
+  background-color: @button-primary-background;
+  color: @button-primary-color;
+}
+
+/* Hover */
+.tx-btn-primary:hover,
+.tx-btn-primary:focus {
+  background-color: @button-primary-hover-background;
+  color: @button-primary-hover-color;
+}
+
+/* Active */
+.tx-btn-primary:active,
+.tx-btn-primary.uk-active {
+  background-color: @button-primary-active-background;
+  color: @button-primary-active-color;
+}
+
+/*
+ * Modifier: `tx-btn-danger`
+ */
+
+.tx-btn-danger {
+  background-color: @button-danger-background;
+  color: @button-danger-color;
+}
+
+/* Hover */
+.tx-btn-danger:hover,
+.tx-btn-danger:focus {
+  background-color: @button-danger-hover-background;
+  color: @button-danger-hover-color;
+}
+
+/* Active */
+.tx-btn-danger:active,
+.tx-btn-danger.uk-active {
+  background-color: @button-danger-active-background;
+  color: @button-danger-active-color;
+}
+
+// Drag and Drop Handleer
+
+.panel-heading  .tx_draging {
+  position: relative;
+  left: -2px;
+  padding-right: 10px;
+  cursor: move; 
+  border-right: 1px solid #000;
+}
+.panel-heading  .tx_draging + i {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.panel-heading  .action-remove {
+  font-size: 16px;
+  margin: -27px 15px 0px 0px;
+  color: #D54C48;
+  cursor: pointer;
+}
+
+//Preset Styles
+@import "presets/preset.less";
+
+.selectize-input:before {
+font-family: FontAwesome;
+content: "\f002";
+position: absolute;
+top: 6px;
+right: 6px;
+}
+.selectize-control.single .selectize-input:after{
+  border-style: none !important;
+}
+
+.selectize-control.single .selectize-input:before{
+  background: none !important;
+  height: 0 !important;
+  
+  }
