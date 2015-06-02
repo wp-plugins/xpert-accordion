@@ -4,7 +4,7 @@ Donate link: http://www.themexpert.com
 Tags: Accordion, accordions, accordions plugin, accordions plugin jquery, accordions plugin wordpress, accordions short-code, jQuery accordions, Responsive accordions, shortcodes, draggable accordion plugin, accordion builder, bootstrap, fontAwesome, gulp, less
 Requires at least: 3.6
 Tested up to: 3.6 or higher
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,7 +36,8 @@ Drag and Drop accordion shortcode Builder
 * Slick Frontend and backend UI
 * Form Validation with color changes
 * Add and remove accordion item from backend.
-* Font Awesome Icon Support
+* Font Awesome Icon Support.
+* Multiple Advanced Custom Field or Multiple WISYWIG Editor Support.
 
 **Optional Features**
 
@@ -107,6 +108,8 @@ It pretty simple, Just go to **select style** drop down option and select the av
 * Icon list update
 = 1.2 =
 * File inclusion fix for lower version of PHP
+= 1.3 =
+* Advanced custom fields or multiple WISYWIG editor support.
 
 == Screenshots ==
 

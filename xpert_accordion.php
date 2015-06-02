@@ -3,7 +3,7 @@
  * Plugin Name: Xpert Accordion
  * Plugin URI: http://themexpert.com/wordpress-plugins/xpert-accordion-wp
  * Description: Drag and Drop Accordion Shortcode Generator.
- * Version: 1.2
+ * Version: 1.3
  * Author: ThemeXpert
  * Author URI: http://themexpert.com
  * License: GPLv2 or later
@@ -45,6 +45,7 @@ final class TX_XpertAccordion
 		add_action('media_buttons', array($this, 'addAccordionButton'), 15);
 		add_action('wp_enqueue_media', array($this, 'loadAdminScripts'));
 		add_action('wp_enqueue_scripts', array($this, 'loadSiteScripts'));
+		add_action('admin_footer', array($this, 'tx_html_modal'));
 	}
 	/**
 	 * Add Button On AddMedia area
@@ -53,10 +54,16 @@ final class TX_XpertAccordion
 	 * @return void
 	 * @since 0.1
 	 */
+
+	public function tx_html_modal(){
+
+		echo Html::getModal();
+	}
+
+
 	public function addAccordionButton()
 	{
-		echo Html::getMediaButtion();
-		echo Html::getModal();
+		echo Html::getMediaButtion();		
 	}
 	/**
 	 * Load Common scripts for frontend and backend
