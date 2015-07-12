@@ -4,7 +4,7 @@ Donate link: http://www.themexpert.com
 Tags: Accordion, accordions, accordions plugin, accordions plugin jquery, accordions plugin wordpress, accordions short-code, jQuery accordions, Responsive accordions, shortcodes, draggable accordion plugin, accordion builder, bootstrap, fontAwesome, gulp, less
 Requires at least: 3.6
 Tested up to: 3.6 or higher
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,7 @@ Drag and Drop accordion shortcode Builder
 
 * Xpert Accordion is responsive and friendly to any mobile devices
 * Limitless accordion anywhere in the theme
+* Ability to open any accordion by default
 * Use via short-codes
 * Numerous preset styles
 * Draggable accordion items for easy sorting
@@ -100,16 +101,20 @@ Yes, You can create as many as accordion set if you want.
 It pretty simple, Just go to **select style** drop down option and select the available styles.
 
 == Changelog ==
-= 1.0 =
-* initial Release
+= 1.4 =
+* Accordion Open Close Functionality Added
+* Bootstrap Conflict Fixed
+= 1.3 =
+* Advanced custom fields or multiple WISYWIG editor support.
+= 1.2 =
+* File inclusion fix for lower version of PHP
 = 1.1 =
 * Nested shortcode
 * Bootstrap update
 * Icon list update
-= 1.2 =
-* File inclusion fix for lower version of PHP
-= 1.3 =
-* Advanced custom fields or multiple WISYWIG editor support.
+= 1.0 =
+* initial Release
+
 
 == Screenshots ==
 

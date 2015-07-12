@@ -3,7 +3,7 @@
  * Plugin Name: Xpert Accordion
  * Plugin URI: http://themexpert.com/wordpress-plugins/xpert-accordion-wp
  * Description: Drag and Drop Accordion Shortcode Generator.
- * Version: 1.3
+ * Version: 1.4
  * Author: ThemeXpert
  * Author URI: http://themexpert.com
  * License: GPLv2 or later

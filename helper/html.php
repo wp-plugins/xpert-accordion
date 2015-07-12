@@ -74,7 +74,7 @@ abstract class Html {
 					</div>
 					  <div id="acc-1" class="panel-collapse panel-collapse-acc collapse" role="tabpanel">
 					      <div class="panel-body tx-form">
-					       	  	<form class="tx-form">
+					       	  	<form class="tx-form">									
 									<div class="width-70">
 										<label for="title">Title</label>
 										<input type="text" class="title-acc" placeholder="Enter title">
@@ -86,6 +86,9 @@ abstract class Html {
 									<div class="width-100">
 										<label for="content">Content</label>
 										<textarea rows="10" name="content" class="content"></textarea>
+									</div>
+									<div class="width pull-right">
+										<label for="openclose"><input type="checkbox" class="openclose"/> Default Open</label>
 									</div>
 								</form>
 					     </div>
