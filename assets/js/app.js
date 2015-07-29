@@ -56,7 +56,7 @@
 
             if (totalPanel != 2) {
                 var result = confirm("Are Your sure");
-                if (result == true) {
+                if (result === true) {
                     panel.remove();
                 }
 
@@ -70,7 +70,7 @@
             var newValue = $(this).val();
             $(this).closest('.panel-acc').find('.panel-title > a  > .tx-title').text(newValue);
 
-            if (!(newValue.length) == 0 && ($(this).closest('.panel-acc').hasClass('panel-danger'))) {
+            if (!(newValue.length) === 0 && ($(this).closest('.panel-acc').hasClass('panel-danger'))) {
                 $(this).closest('.panel-acc').removeClass('panel-danger').addClass('panel-default');
             }
         });
@@ -110,7 +110,7 @@
                 var $content = $(this).find('.content').val();
                 var $openclose = $(this).find('.openclose').prop('checked') ? "in": "";
 
-                if (($title.length == 0) || ($content.length == 0)) {
+                if (($title.length === 0) || ($content.length === 0)) {
                     $(this).removeClass('panel-default').addClass('panel-danger');
                     $error = true;
                 } else {
@@ -122,7 +122,7 @@
 
             if (!$error) {
                 wp.media.editor.insert('[xa_acc style="' + $presets + '" ]' + $accordions.join('') + '[/xa_acc]');
-                $('#xa-modal').modal('hide')
+                $('#xa-modal').modal('hide');
             }
 
         });

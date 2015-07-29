@@ -4,7 +4,7 @@ Donate link: http://www.themexpert.com
 Tags: Accordion, accordions, accordions plugin, accordions plugin jquery, accordions plugin wordpress, accordions short-code, jQuery accordions, Responsive accordions, shortcodes, draggable accordion plugin, accordion builder, bootstrap, fontAwesome, gulp, less
 Requires at least: 3.6
 Tested up to: 3.6 or higher
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,9 @@ Yes, You can create as many as accordion set if you want.
 It pretty simple, Just go to **select style** drop down option and select the available styles.
 
 == Changelog ==
+= 1.5 =
+* jQuery Caching Added & Conflict Fixed
+* Bootstrap Conflict Fixed
 = 1.4 =
 * Accordion Open Close Functionality Added
 * Bootstrap Conflict Fixed

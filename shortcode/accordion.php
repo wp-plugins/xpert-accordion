@@ -18,7 +18,7 @@ function accordion_shortcode($attr, $content = null)
 
     $content = do_shortcode($content);
 
-    return '<div class="panel-group ' . $data['style'] . '"  id="accordion-' . $tx_acc_item . '" role="tablist" aria-multiselectable="true">' . $content . '</div>';
+    return '<div class="panel-group '. $data['style'] .'"  id="accordion-'. $tx_acc_item .'" role="tablist" aria-multiselectable="true">'. $content .'</div>';
 }
 
 add_shortcode('xa_acc', 'accordion_shortcode');
@@ -42,13 +42,13 @@ function accordion_shortcode_nested($attr, $content = null)
     return '<div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion-' . $tx_acc_item . '" href="#acc-' . $tx_acc_count . '" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa fa-' . $data['icon'] . '"></i> ' . $data['title'] . '
+                        <a data-toggle="collapse" data-parent="#accordion-'. $tx_acc_item .'" href="#acc-'. $tx_acc_count .'" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fa fa-'. $data['icon'] .'"></i> '. $data['title'] .'
                         </a>
                     </h4>
                 </div>
-                <div id="acc-' . $tx_acc_count . '" class="panel-collapse collapse' . $data['openclose'] . '" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">' . $content . '</div>
+                <div id="acc-'. $tx_acc_count.'" class="panel-collapse collapse '. $data['openclose'].'" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">'. $content .'</div>
                 </div>
             </div>';
 }
